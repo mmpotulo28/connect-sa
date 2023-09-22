@@ -1,0 +1,81 @@
+#view_conn {
+    display: block;
+    background-color: lightgrey;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: max-content;
+    max-width: 90vw;
+    padding-inline: 20px;
+}
+
+#view_conn h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-inline: auto;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.view_configs {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.view_configs .view_configs_item {
+    display: inline-block;
+}
+
+.view_configs .view_configs_item select {
+    display: inline-block;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-overflow: clip;
+    font-size: 13px;
+}
+
+.view_table {
+    display: block;
+    width: max-content;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.view_table table {
+    display: block;
+    margin: 10px;
+    width: fit-content;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.view_table table thead tr {
+    background-color: grey;
+    color: black;
+    font-size: 15px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.view_table table thead tr th {
+    padding: 5px;
+    border: 1px solid grey;
+    width: fit-content;
+    text-wrap: nowrap;
+    border-inline: 1px solid darkgrey;
+}
+
+.view_table table tbody tr td {
+    padding: 10px 10px;
+    border: 1px solid grey;
+    width: fit-content;
+    text-wrap: nowrap;
+}

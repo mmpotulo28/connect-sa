@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Connect-SA is a platform that allows you to create your professional connections"
+    />
+    <meta
+      name="keywords"
+      content="Connect-SA, Connect, SA, South Africa, Professional, Connections, Create, "
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/forms.css" />
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+    <script
+      src="https://kit.fontawesome.com/cda065bf16.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Connect-SA | Create your Connections</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="left">
+          <li class="logo">Connect-SA</li>
+        </ul>
+        <ul class="right">
+          <li>
+            <a href="#"><i class="fa fa-house"></i>Home</a>
+          </li>
+          <li>
+            <a href="./index.html"><i class="fa fa-circle-plus"></i>Create</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-list"></i>View</a>
+          </li>
+          <li>
+            <a href="#contacts"><i class="fa fa-address-card"></i>Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="body_section" id="view_conn">
+      <h1>View your Connections</h1>
+      <div class="view_configs">
+        <div class="view_configs_item">
+          <label for="filter">Filter by:</label>
+          <select name="filter" id="filter">
+            <option value="all">All</option>
+            <option value="company">Company</option>
+            <option value="role">Role</option>
+          </select>
+        </div>
+        <div class="view_configs_item">
+          <label for="sort">Sort by:</label>
+          <select name="sort" id="sort">
+            <option value="name">Name</option>
+            <option value="surname">Surname</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+            <option value="company">Company</option>
+            <option value="role">Role</option>
+          </select>
+        </div>
+      </div>
+      <div class="view_table">
+        <table class="conn_table">
+          <thead>
+            <tr>
+              <th>Full Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Company</th>
+              <th>Role</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mpotulom28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>Web Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mptdevs28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>front-end Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mptdevs28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>front-end Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mptdevs28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>front-end Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mptdevs28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>front-end Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Manelisi Mpotulo</td>
+              <td>
+                <a href="mailto:">mptdevs28@gmail.com</a>
+              </td>
+              <td>
+                <a href="tel:">0635902212</a>
+              </td>
+              <td>CPUT</td>
+              <td>front-end Developer</td>
+              <td>
+                <a href="#" class="edit">Edit</a>
+                <a href="#" class="delete">Delete</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer_links">
+        <h3 class="heading">Links</h3>
+        <li>
+          <a href="#"><i class="fa fa-house"></i>Home</a>
+        </li>
+        <li>
+          <a href="#create_conn"><i class="fa fa-circle-plus"></i>Create</a>
+        </li>
+        <li>
+          <a href="#view_connect"><i class="fa fa-list"></i>View</a>
+        </li>
+        <li>
+          <a href="#contacts"><i class="fa fa-address-card"></i>Contacts</a>
+        </li>
+      </ul>
+      <ul class="socials">
+        <h3 class="heading">Socials</h3>
+        <li>
+          <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-github"></i>Github</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-linkedin"></i>Linked</a>
+        </li>
+      </ul>
+      <ul class="contacts">
+        <h3 class="heading">Contacts</h3>
+        <li>
+          <a href="#"><i class="fa fa-phone"></i>+27 63 590 2212</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-envelope"></i>mptdevs@gmail.com</a>
+        </li>
+        <br />
+        <li><a href="#">Copyright &copy; 2023</a></li>
+      </ul>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

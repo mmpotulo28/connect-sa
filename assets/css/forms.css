@@ -1,0 +1,122 @@
+#create_connect {
+    width: 100%;
+    max-width: 530px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 1px;
+}
+
+#create_connect h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+#create_connect #create_form {
+    display: block;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+#create_connect #create_form .input_group {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+
+#create_connect #create_form label {
+    display: inline-block;
+    margin: 10px 0px 10px 5px;
+    font-size: 20px;
+}
+
+#create_connect #create_form label:hover {
+    font-weight: bold;
+}
+
+#create_connect #create_form input {
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-overflow: clip;
+    font-size: 17px;
+}
+
+#create_connect #create_form input:focus {
+    outline: 1px solid navy;
+    box-shadow: 10px 10px 10px grey;
+    transition: ease-in-out 0.2s;
+}
+
+#create_connect #create_form .input_group select {
+    display: inline-block;
+    margin: 10px 0px 10px 20px;
+    min-width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    text-overflow: clip;
+    font-size: 17px;
+}
+
+#create_connect #create_form .input_group select:focus {
+    outline: 1px solid navy;
+    box-shadow: 10px 10px 10px grey;
+    transition: ease-in-out 0.2s;
+}
+
+#create_connect #create_form .input_group textarea {
+    display: block;
+    max-width: 180px;
+    min-width: 85%;
+    min-height: 100px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+#create_connect #create_form .input_group textarea:focus{
+    outline: 1px solid navy;
+    box-shadow: 10px 10px 10px grey;
+    transition: ease-in-out 0.2s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+#create_connect #create_form button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#create_connect #create_form button:hover {
+    background-color: transparent;
+    color: black;
+    outline: 2px solid black;
+    box-shadow: 10px 10px 10px grey;
+    transition: ease-in-out 0.2s;
+}
