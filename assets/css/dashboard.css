@@ -1,13 +1,18 @@
 #view_conn {
-    display: block;
+    display: flex;
     background-color: lightgrey;
-    margin: auto;
     margin-top: 100px;
-    padding-top: 20px;
-    border-radius: 10px;
-    width: max-content;
-    max-width: 90vw;
-    padding-inline: 20px;
+    margin-inline: 20px;
+    border-radius: 20px;
+}
+
+.view_content {
+    display: block;
+    max-width: 80%;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 #view_conn h1 {
@@ -42,16 +47,13 @@
 }
 
 .view_table {
-    display: block;
-    width: max-content;
-    max-width: 100%;
+    width: 100%;
     overflow: auto;
 }
 
 .view_table table {
     display: block;
     margin: 10px;
-    width: fit-content;
     border-collapse: collapse;
     border: 1px solid grey;
     width: fit-content;
@@ -78,4 +80,44 @@
     border: 1px solid grey;
     width: fit-content;
     text-wrap: nowrap;
+}
+
+
+/*****sidebar******/
+.sidebar {
+    display: block;
+    background-color: black;
+    width: 50px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    transition: all 0.7s ease;
+}
+
+.sidebar:hover {
+    width: fit-content;
+}
+
+.sidebar .fa {
+    display: inline-block;
+    color: inherit;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.sidebar .sidebar_item {
+    display: block;
+    padding: 10px 15px;
+    color: lightgrey;
+}
+
+.sidebar .sidebar_item:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.sidebar .sidebar_item a {
+    display: inline-block;
+    color: inherit;
+    font-size: 17px;
+    text-decoration: none;
 }

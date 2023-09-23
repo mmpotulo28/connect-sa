@@ -44,134 +44,163 @@
     </header>
 
     <section class="body_section" id="view_conn">
-      <h1>View your Connections</h1>
-      <div class="view_configs">
-        <div class="view_configs_item">
-          <label for="filter">Filter by:</label>
-          <select name="filter" id="filter">
-            <option value="all">All</option>
-            <option value="company">Company</option>
-            <option value="role">Role</option>
-          </select>
+      <div class="sidebar">
+        <div class="sidebar_item">
+          <i class="fa fa-file"></i>
+          <a href="#create" class="btn">Create Content</a>
         </div>
-        <div class="view_configs_item">
-          <label for="sort">Sort by:</label>
-          <select name="sort" id="sort">
-            <option value="name">Name</option>
-            <option value="surname">Surname</option>
-            <option value="email">Email</option>
-            <option value="phone">Phone</option>
-            <option value="company">Company</option>
-            <option value="role">Role</option>
-          </select>
+        <div class="sidebar_item">
+          <i class="fa fa-book"></i>
+          <a href="#view" class="btn">View Content</a>
+        </div>
+        <div class="sidebar_item">
+          <i class="fa fa-plus-circle"></i>
+          <a href="#create" class="btn">Add User</a>
+        </div>
+        <div class="sidebar_item">
+          <i class="fa fa-user"></i>
+          <a href="#view" class="btn">View Users</a>
+        </div>
+
+        <div class="sidebar_item">
+          <i class="fa fa-lock"></i>
+          <a href="#create" class="btn">Add Admin</a>
+        </div>
+
+        <div class="sidebar_item">
+          <i class="fa fa-shield"></i>
+          <a href="#view" class="btn">View Admins</a>
         </div>
       </div>
-      <div class="view_table">
-        <table class="conn_table">
-          <thead>
-            <tr>
-              <th>Full Name</th>
-              <th>Email</th>
-              <th>Phone</th>
-              <th>Company</th>
-              <th>Role</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mpotulom28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>Web Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mptdevs28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>front-end Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mptdevs28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>front-end Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mptdevs28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>front-end Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mptdevs28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>front-end Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Manelisi Mpotulo</td>
-              <td>
-                <a href="mailto:">mptdevs28@gmail.com</a>
-              </td>
-              <td>
-                <a href="tel:">0635902212</a>
-              </td>
-              <td>CPUT</td>
-              <td>front-end Developer</td>
-              <td>
-                <a href="#" class="edit">Edit</a>
-                <a href="#" class="delete">Delete</a>
-              </td>
-            </tr>
-            
-          </tbody>
-        </table>
+      <div class="view_content">
+        <h1>View your Connections</h1>
+        <div class="view_configs">
+          <div class="view_configs_item">
+            <label for="filter">Filter by:</label>
+            <select name="filter" id="filter">
+              <option value="all">All</option>
+              <option value="company">Company</option>
+              <option value="role">Role</option>
+            </select>
+          </div>
+          <div class="view_configs_item">
+            <label for="sort">Sort by:</label>
+            <select name="sort" id="sort">
+              <option value="name">Name</option>
+              <option value="surname">Surname</option>
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="company">Company</option>
+              <option value="role">Role</option>
+            </select>
+          </div>
+        </div>
+        <div class="view_table">
+          <table class="conn_table">
+            <thead>
+              <tr>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Company</th>
+                <th>Role</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mpotulom28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>Web Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mptdevs28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>front-end Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mptdevs28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>front-end Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mptdevs28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>front-end Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mptdevs28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>front-end Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Manelisi Mpotulo</td>
+                <td>
+                  <a href="mailto:">mptdevs28@gmail.com</a>
+                </td>
+                <td>
+                  <a href="tel:">0635902212</a>
+                </td>
+                <td>CPUT</td>
+                <td>front-end Developer</td>
+                <td>
+                  <a href="#" class="edit">Edit</a>
+                  <a href="#" class="delete">Delete</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
